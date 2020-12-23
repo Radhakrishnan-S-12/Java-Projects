@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Event Regiatration</title>
+</head>
+<style>
+.content{
+	margin: auto;
+  	width: 100%;
+  	text-align:center;
+  	padding: 10px;
+}
+
+table td{
+	padding : 10px;
+	border : 2px solid green;
+}
+table{
+	margin-left: auto;
+	margin-right :auto;
+	border-collapse:collapse;
+}
+
+</style>
+<body>
+<div class="content">
+<h2>Student Information System</h2>
+<h3>Add Student Details</h3>
+<form name="f1" method="get" action="Controller">
+<table>
+	<tr><td>Enter Reg No.</td>
+		<td><input type="text" name="regno"/></td></tr>
+	<tr><td>Enter Name</td>
+		<td><input type="text" name="name"/></td></tr>
+	<tr><td>Enter CGPA</td>
+		<td><input type="text" name="cgpa"/></td></tr>
+	<tr><td>Enter Dept</td>
+		<td><input type="text" name="dept"/></td></tr>
+	<tr><td></td><td><input type="submit" name = "action" value="Add Student"/>
+		<input type="reset" value="Reset"/></td></tr>
+</table>
+</form>
+<a href="Controller?action=home">Home</a>
+</div>
+</body>
+</html>
+

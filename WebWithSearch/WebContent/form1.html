@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Event Regiatration</title>
+</head>
+<style>
+body{
+	background-color:cyan;
+}
+h2{
+	text-align:center;
+}
+table td{
+	padding : 10px;
+	border : 2px solid green;
+}
+table{
+	border-collapse:collapse;
+}
+
+</style>
+<body>
+<h2>Event Registration Form</h2>
+<table align="center">
+<tr>
+	<td>Student Name</td>
+	<td><input type="text" name="sname"/></td>
+</tr>
+<tr>
+	<td>Reg. Number</td>
+	<td><input type="text" name="regno"/></td>
+</tr>
+<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="gender"/>Male
+	    <input type="radio" name="gender"/>Female</td>
+</tr>
+<tr>
+	<td>Department</td>
+	<td><select name="dept">
+		<option value="ICT">ICT</option>
+		<option value="CSE">CSE</option>
+		<option value="IT">ICT</option>
+		<option value="MECH">Mech</option>
+	</select></td>
+</tr>
+<tr>
+	<td>Facilities Required</td>
+	<td><input type="checkbox" name="f1"/>Food
+	    <input type="checkbox" name="f2"/>Accommodation
+	    <input type="checkbox" name="f3"/>Transport</td>
+</tr>
+<tr>
+	<td>College Name</td>
+	<td><input type="text" name="colname"/></td>
+</tr>
+<tr>
+	<td>Address</td>
+	<td><textarea rows="5"></textarea></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><input type="submit" value="Submit"/>
+	    <input type="reset" value="Reset"/></td>
+</tr>
+</table>
+</body>
+</html>
+
