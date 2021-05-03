@@ -9,7 +9,9 @@ public class Application {
 		linkedList.insert(5);
 		linkedList.insert(2);
 		linkedList.insert(312);
+		linkedList.insert(20);
 		linkedList.show();
+		linkedList.getMiddle(linkedList);
 
 	}
 

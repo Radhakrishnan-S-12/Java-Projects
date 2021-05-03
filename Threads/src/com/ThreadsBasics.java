@@ -33,10 +33,10 @@ public class ThreadsBasics extends Synchronization {
 		}, "Nool-2");
 
 		t1.start();
-		t1.setPriority(Thread.NORM_PRIORITY);
+		//t1.setPriority(Thread.NORM_PRIORITY);
 		Thread.sleep(10);
 		t2.start();
-		t2.setPriority(Thread.MAX_PRIORITY);
+		//t2.setPriority(Thread.MAX_PRIORITY);
 		t1.join();
 		t2.join();
 
@@ -46,8 +46,8 @@ public class ThreadsBasics extends Synchronization {
 		System.out.print("Is " + t2.getName() + " alive: ");
 		System.out.println(t2.isAlive());
 
-		System.out.println("Priority of thread 1: " + t1.getPriority());
-		System.out.println("Priority of thread 2: " + t2.getPriority());
+		//System.out.println("Priority of thread 1: " + t1.getPriority());
+		//System.out.println("Priority of thread 2: " + t2.getPriority());
 
 		System.out.println("Total count number is: " + synchronization.getCount());
 	}

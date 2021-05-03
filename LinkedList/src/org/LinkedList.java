@@ -27,4 +27,23 @@ public class LinkedList {
 		System.out.println(node.getData());
 	}
 
+	public int size() {
+		Node node = head;
+		int size = 0;
+		while (node.getNext() != null) {
+			node = node.getNext();
+			size++;
+		}
+		return size;
+	}
+
+	public void getMiddle(LinkedList linkedList) {
+		Node node = head;
+		int size = (linkedList.size() / 2);
+		for (int i = 0; i < size; i++) {
+			node = node.getNext();
+		}
+		System.out.println(node.getData());
+	}
+
 }
