@@ -1,0 +1,53 @@
+.registration{
+	width: 50%;
+	height: 90%;
+	margin-top:2%;
+	margin-left: 30%;
+	background-color: #80ced6;
+
+
+}
+.user{
+	width: 30%;
+	height: 70%;
+	margin-top:2%;
+	margin-left: 35%;
+	background-color: #80ced6;
+	position: absolute;
+	overflow-y: scroll;
+
+}
+.login{
+	width: 30%;
+	height: 50%;
+	margin-top:5%;
+	margin-left: 30%;
+	background-color: #80ced6;
+	position: absolute;
+
+}
+.text{
+	right: 0%;
+	top:1%;
+	width:20%;
+	position: fixed;
+	height: 5%;
+	padding-top: 5px;
+}
+.search{
+	left: 45%;
+	top:1%;
+	width:10%;
+	position: absolute;
+	height: 5%;
+	padding-top: 5px;
+}
+.center{
+	text-align: center;
+}
+.error{
+	color: red;
+}
+.message{
+	color: green;
+}
